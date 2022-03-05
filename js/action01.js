@@ -1,5 +1,7 @@
 ﻿let textResult = document.querySelector("#result");
 
+//Tensores
+
 //https://www.tensorflow.org/guide/tensor
 //https://js.tensorflow.org/api/latest/#tensor4d
 function execute() {
