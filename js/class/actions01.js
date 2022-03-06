@@ -21,6 +21,7 @@ function execute() {
   const tensor16d = tf.tensor([1, 2, 3, 5, 3, 5, 6, 3]);
   const as5D = tensor16d.as5D(1, 2, 2, 2, 1);
 
+  // a conversao e para baixo
   const tensorFloat = tf.tensor([1.3, 2.1, 3.3, 5.6, 3.5, 5.1, 6.45, 3.2]);
   const asTypeInt = tensorFloat.asType("int32");
 
