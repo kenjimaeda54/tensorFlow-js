@@ -20,7 +20,7 @@ function execute() {
   const reshape = tensorStr.reshape([2, 2]);
   //reshapeAs ele muda a dimensionalidade de acordo com um tensor
   //estamos mudando o tensorStr2 para dimensionalidade do tensorStr3
-  //os valores internos serao do tensorStr2
+  //os valores internos serão do tensorStr2
   const tensorStr2 = tf.tensor([
     [2, 3],
     [4, 5],
