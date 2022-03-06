@@ -32,7 +32,7 @@ function execute() {
   //porem posso colocar intervalo,neste caso o intervalo e ultimo parametro
   //range vai somando do inicio ate chegar final
   //1,11,3==> vai ser 4,7,10
-  //normalmente o ultimo numero nao é incluido
+  //normalmente o ultimo numero nao é incluído
   const rangeOne = tf.range(0, 11, 2);
   const rangeTwo = tf.range(0, 101, 10);
   const rangeThree = tf.range(1, 11, 3);
